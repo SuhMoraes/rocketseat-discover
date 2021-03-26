@@ -1,0 +1,46 @@
+<!--
+  2 lojas
+    Quantos produtos foram produzidos, quantos venidos e agrupados
+    por nome dos produtos
+-->
+
+<table>
+  <caption>Produtos produzidos x Vendidos por loja  </caption>
+  
+  <colgroup> <!-- colgroup -> Tag que agrupa as colunas-->
+    <col span="2"  style="background-color: blue;">
+    <col span="2" style="background-color: red;">
+  </colgroup>
+     
+  <thead>
+    <tr>
+      <th rowspan="2"></th> <!-- rowspan -> ocupa linhas vazias-->
+      <th colspan="2" scope="colgroup">Super Sul</th><!-- colspan -> ocupa colunas vazias-->
+      <th colspan="2">Muffato</th>
+    </tr>  
+    <tr>
+      <th scope="col">Produzidos</th><!--scope -> Ajuda na acessibilidade na leitura da tabela -->
+      <th scope="col">Vendidos</th>
+      <th scope="col">Produzidos</th>
+      <th scope="col">Vendidos</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <th scope="row">Vassouras</th><!--scope -> Ajuda na acessibilidade na leitura da tabela -->
+      <td>50</td>
+      <td>30</td>
+      <td>20</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th scope="row">Baldes</th><!--scope -> Ajuda na acessibilidade na leitura da tabela -->
+      <td>10</td>
+      <td>10</td>
+      <td>30</td>
+      <td>25</td>
+    </tr>
+  </tbody>
+  
+</table>
